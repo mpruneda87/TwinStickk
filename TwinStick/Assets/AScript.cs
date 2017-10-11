@@ -7,7 +7,8 @@ public class AScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         print("bluug");
-	}
+        print("bluug");
+    }
 	
 	// Update is called once per frame
 	void Update () {
