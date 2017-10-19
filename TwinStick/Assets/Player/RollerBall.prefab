@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54415071345828722}
   - component: {fileID: 114744239406242332}
   - component: {fileID: 114890154388114812}
+  - component: {fileID: 114368550053831796}
+  - component: {fileID: 114882257835259300}
   m_Layer: 9
   m_Name: RollerBall
   m_TagString: Player
@@ -101,6 +103,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 8
   m_CollisionDetection: 0
+--- !u!114 &114368550053831796
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1379166085299944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0470383902e4f498048be82edeff6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114744239406242332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -115,7 +128,18 @@ MonoBehaviour:
   m_MovePower: 5
   m_UseTorque: 1
   m_MaxAngularVelocity: 25
-  m_JumpPower: 4
+  m_JumpPower: 2
+--- !u!114 &114882257835259300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1379166085299944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0470383902e4f498048be82edeff6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114890154388114812
 MonoBehaviour:
   m_ObjectHideFlags: 1
